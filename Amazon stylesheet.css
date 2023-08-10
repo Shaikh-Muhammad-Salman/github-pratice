@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+     border: border-box;  /* border height: or width k andr included ho */
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(../Assignments/images/amazon_logo.png);
+    background-size: cover;
+    height: 50px ;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+
+}
+
+ .border:hover{
+    border: 1px solid white;
+ }
+
+ /* box 2 */
+ .add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+ 
+ }
+
+ .add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+
+ }
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: brown;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px ;
+    display: flex;
+    justify-content: center; /* horizontall center krne k leye*/
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+
+}
+/* box 4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.8rem;
+}
+/* box 6 */
+.nav-cart i{  /*selectors*/
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #232f3E;
+    color: white;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.panel-all{
+    margin-left: 8px;
+}
+.panel-opt p{
+    
+    display: inline;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 10px;
+}
+.panel-opt p:hover{
+border: 2px solid white;
+}
+.hero-section{
+    background-image: url(../Assignments/images/hero_images.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
